@@ -1,5 +1,9 @@
 #!/bin/bash
+<<<<<<< HEAD
 CONFIG_DIR=~/.fado;
+=======
+CONFIG_DIR=~/.maven-one-liner;
+>>>>>>> Initial script. Workspace initialization function.
 DEFAULT_WORKSPACE=$CONFIG_DIR/.default_workspace;
 [ -d $CONFIG_DIR ] || mkdir -p $CONFIG_DIR;
 [ -f $DEFAULT_WORKSPACE ] || touch $DEFAULT_WORKSPACE;
